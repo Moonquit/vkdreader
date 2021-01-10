@@ -6,11 +6,12 @@
 ```bash
 git clone https://github.com/moonquit/vkdreader.git
 ```
+> [Git](https://git-scm.com/) must be installed
+
 ## Install dependencies
 ```bash
 pip install -r vkdreader/requiremets.txt
 ```
-> [Git](https://git-scm.com/) must be installed
 
 ## Run
 At the main repo directory run `vkdreader` like a module:
