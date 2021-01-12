@@ -24,13 +24,13 @@ python -m vkdreader
 * Create virtual enviroment and install packages there
 	#### Linux
 	```bash
-	cd raidbot
+	cd vkdreader
 	python3 -m venv env
 	source env/bin/activate
 	```
 	#### Windows
 	```bash
-	cd raidbot
+	cd vkdreader
 	python -m venv env
 	env\scripts\activate
 	```
