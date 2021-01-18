@@ -50,7 +50,7 @@ def get_dialogs(api):
 		for item in peers["items"]:
 			dialogs.append(item["conversation"]["peer"]["id"])
 
-	tools.log_ok(f"Received {len(dialogs)} dialogs! Press any key to continue...")
+	tools.log_ok(f"Received {len(dialogs)} unread dialogs! Press any key to start read...")
 	tools.wait_click()
 	return dialogs
 
@@ -79,7 +79,8 @@ def check_token(token):
 
 def main():
 	while True:
-		inp = input("[\033[34m*\033[0m] Enter the API token: ").strip()
+		tools.log("Enter the API token:")
+		inp = input("> ").strip()
 		if check_token(inp):
 			break
 
