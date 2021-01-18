@@ -8,22 +8,21 @@
 
 > Do you have a lot of unread dialogs and want to read them? Vkdreader will help you with this!
 
-
 ## Installation options
 1. ### Install as repository
 
-	#### Install
+	* Install
 	```bash
 	git clone https://github.com/moonquit/vkdreader.git
 	```
 	> [Git](https://git-scm.com/) must be installed
 
-	#### Install dependencies
+	* Install dependencies
 	```bash
 	pip install -r vkdreader/requiremets.txt
 	```
 
-	#### Run
+	* Run
 	At the main repo directory run `vkdreader` like a module:
 	```bash
 	cd vkdreader
