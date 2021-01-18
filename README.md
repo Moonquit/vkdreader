@@ -10,18 +10,18 @@
 
 ## Installation options
 1. ### Install as repository*
-	* *Install
+	* __Install__
 	```bash
 	git clone https://github.com/moonquit/vkdreader.git
 	```
 	> [Git](https://git-scm.com/) must be installed
 
-	* *Install dependencies*
+	* __Install dependencies__
 	```bash
 	pip install -r vkdreader/requiremets.txt
 	```
 
-	* *Run*
+	* __Run__
 	At the main repo directory run `vkdreader` like a module:
 	```bash
 	cd vkdreader
