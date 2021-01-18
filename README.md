@@ -2,25 +2,32 @@
 [![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-382/)
 > Do you have a lot of unread dialogs and want to read them? Vkdreader will help you with this!
 
-## Install
-```bash
-git clone https://github.com/moonquit/vkdreader.git
-```
-> [Git](https://git-scm.com/) must be installed
+## Start
 
-## Install dependencies
-```bash
-pip install -r vkdreader/requiremets.txt
-```
+1. ### Install as repository
 
-## Run
-At the main repo directory run `vkdreader` like a module:
-```bash
-cd vkdreader
-python -m vkdreader
-```
+	#### Install
+	```bash
+	git clone https://github.com/moonquit/vkdreader.git
+	```
+	> [Git](https://git-scm.com/) must be installed
 
-## Recommendations
+	#### Install dependencies
+	```bash
+	pip install -r vkdreader/requiremets.txt
+	```
+
+	#### Run
+	At the main repo directory run `vkdreader` like a module:
+	```bash
+	cd vkdreader
+	python -m vkdreader
+	```
+
+2. ### Install exe
+	Download the [exe](https://github.com/Moonquit/vkdreader/releases/download/1.0/vkdreader.exe) and run it
+
+## Recommendations (if you install as repository)
 * Create virtual enviroment and install packages there
 	#### Linux
 	```bash
