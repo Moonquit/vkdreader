@@ -8,8 +8,8 @@
 
 > Do you have a lot of unread dialogs and want to read them? Vkdreader will help you with this!
 
-## Installation options
-1. ### Install as repository*
+## 📍 Installation options:
+1. ### Install as repository
 	* __Install__
 	```bash
 	git clone https://github.com/moonquit/vkdreader.git
