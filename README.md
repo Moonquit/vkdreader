@@ -1,6 +1,13 @@
 # Vkdreader - Vk Dialogs Reader
-[![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-382/)
+
+!["Made with Python"][1] [![][2]][3]
+
+[1]: https://img.shields.io/badge/Made%20with-Python-%23FFD242?logo=python&logoColor=white
+[2]: https://img.shields.io/badge/python-3.8+-blue.svg
+[3]: https://www.python.org/downloads/release/python-382
+
 > Do you have a lot of unread dialogs and want to read them? Vkdreader will help you with this!
+
 
 ## Start
 
