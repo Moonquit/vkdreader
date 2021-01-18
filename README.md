@@ -9,8 +9,7 @@
 > Do you have a lot of unread dialogs and want to read them? Vkdreader will help you with this!
 
 
-## Start
-
+## Installation options
 1. ### Install as repository
 
 	#### Install
