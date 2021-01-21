@@ -18,7 +18,7 @@
 
 	* __Install dependencies__
 	```bash
-	pip install -r vkdreader/requiremets.txt
+	pip install -r vkdreader/requirements.txt
 	```
 
 	* __Run__
