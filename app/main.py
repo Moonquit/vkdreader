@@ -1,6 +1,6 @@
 import os
+import sys
 import time
-import msvcrt
 import random
 
 import vk_api
@@ -28,7 +28,27 @@ def show():
     )
 
 def wait_click():
-	msvcrt.getch()
+    result = None
+    if os.name == 'nt':
+        import msvcrt
+        result = msvcrt.getch()
+    else:
+        import termios
+        fd = sys.stdin.fileno()
+
+        oldterm = termios.tcgetattr(fd)
+        newattr = termios.tcgetattr(fd)
+        newattr[3] = newattr[3] & ~termios.ICANON & ~termios.ECHO
+        termios.tcsetattr(fd, termios.TCSANOW, newattr)
+
+        try:
+            result = sys.stdin.read(1)
+        except IOError:
+            pass
+        finally:
+            termios.tcsetattr(fd, termios.TCSAFLUSH, oldterm)
+
+    return result
 
 def log_ok(text):
 	print("[\033[32m*\033[0m] {}".format(str(text)))
